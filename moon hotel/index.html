@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="img/icon/moons.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Moon</title>
+</head>
+
+<header>
+  <a href="#" class="Logo">Moon</a>
+  <ul>
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#">About </a></li>
+    <li><a href="#">Work</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</header>
+<section>
+  <img src="img/stars.png" id="stars">
+  <img src="img/moon.png" id="moon">
+  <img src="img/Mountain.png" id="mountains_front">
+</section>
+<!--продолжение-->
+<div class="header">
+
+  <div class="Base">
+    <nav>
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="Закуски.html">Закуски</a></li>
+        <li><a href="#">Номера и цены</a></li>
+        <li><a href="#">Акции</a></li>
+        <li><a href="#">Развлечения</a></li>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Что включено</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<div id="block1">
+  <p>В процессе</p>
+</div>
+
+<div class="block2">
+  <p> В процессе</p>
+</div>
+
+<div class="block3">
+  <p> В процессе</p>
+</div>
+
+<span class="block4">
+  <p> В процессе</p>
+</span>
+
+
+
+<script type="text/javascript">
+  let stars = document.getElementById('stars');
+  let moon = document.getElementById("moon");
+
+  window.addEventListener('scroll', function () {
+    var value = window.scrollY;
+
+    moon.style.top = value * 0.5 + 'px';
+
+  })
+</script>
+<div id="Cb">
+  .
+</div>
+
+
+<div class="footer">Наши контакты: 8(800)535-55-55<br><br>Авторы: Кирилл , Андрей , Дима<br><br>
+  <div id="right">Почта:{ } <br><br>Г.Великие Луки<br><br>Чудотворцы Великих Лук:)</div>
+</div>
+
+</body>
+
+</html>
